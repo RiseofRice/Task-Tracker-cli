@@ -1,5 +1,6 @@
-
 # Task Manager
+
+https://roadmap.sh/projects/task-tracker
 
 Ein einfaches Python-Programm zur Verwaltung von Aufgaben, das Aufgaben hinzufügen, aktualisieren, löschen und filtern kann. Die Aufgaben werden in einer JSON-Datei (`tasks-database.json`) gespeichert und können über verschiedene Befehle bearbeitet werden.
 
@@ -17,6 +18,7 @@ Ein einfaches Python-Programm zur Verwaltung von Aufgaben, das Aufgaben hinzufü
 ## Installation
 
 1. **Klonen oder Herunterladen des Projekts:**
+
    ```bash
    git clone https://github.com/username/task-manager.git
    cd task-manager
@@ -46,7 +48,7 @@ python task_manager.py [command]
   ```
 
 - **test**  
-  Fügt eine Testaufgabe hinzu, die als Beispiel dient.  
+  Fügt eine Testaufgabe hinzu, die als Beispiel dient.
 
   ```bash
   python task_manager.py test
@@ -128,27 +130,33 @@ Das Programm behandelt die folgenden Fehler:
 
 Ein Beispielablauf für das Hinzufügen, Aktualisieren und Löschen einer Aufgabe könnte wie folgt aussehen:
 
-1. **Eine Aufgabe hinzufügen**:  
+1. **Eine Aufgabe hinzufügen**:
+
    ```bash
    python task_manager.py add
    ```
+
    Eingabeaufforderung: `What task would you like to add?`
 
-2. **Die Aufgabe aktualisieren**:  
+2. **Die Aufgabe aktualisieren**:
+
    ```bash
    python task_manager.py update
    ```
+
    Eingabeaufforderungen:
+
    - `What task would you like to update?`
    - `What is the new task description?`
    - `What is the new status?`
 
-3. **Die Aufgabe anzeigen**:  
+3. **Die Aufgabe anzeigen**:
+
    ```bash
    python task_manager.py show
    ```
 
-4. **Die Aufgabe löschen**:  
+4. **Die Aufgabe löschen**:
    ```bash
    python task_manager.py delete
    ```
