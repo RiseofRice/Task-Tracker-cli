@@ -1,4 +1,4 @@
-# Task Manager 💡
+# Task-Tracker-cli 💡
 
 [Project-Link](https://roadmap.sh/projects/task-tracker)
 
