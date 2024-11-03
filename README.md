@@ -35,7 +35,7 @@ Ein einfaches Python-Programm zur Verwaltung von Aufgaben, das Aufgaben hinzufü
 Führe das Skript über die Kommandozeile aus und gib den gewünschten Befehl als Argument an:
 
 ```bash
-python task_manager.py [command]
+python tasks.py [command]
 ```
 
 ### Verfügbare Befehle
@@ -44,56 +44,56 @@ python task_manager.py [command]
   Fügt eine neue Aufgabe hinzu. Nach dem Aufruf wird der Benutzer zur Eingabe einer Aufgabenbeschreibung aufgefordert.
 
   ```bash
-  python task_manager.py add
+  python tasks.py add
   ```
 
 - **test**  
   Fügt eine Testaufgabe hinzu, die als Beispiel dient.
 
   ```bash
-  python task_manager.py test
+  python tasks.py test
   ```
 
 - **update**  
   Aktualisiert eine bestehende Aufgabe. Nach dem Aufruf wird der Benutzer aufgefordert, eine Aufgaben-ID, neue Beschreibung und neuen Status einzugeben.
 
   ```bash
-  python task_manager.py update
+  python tasks.py update
   ```
 
 - **delete**  
   Löscht eine Aufgabe anhand ihrer ID.
 
   ```bash
-  python task_manager.py delete
+  python tasks.py delete
   ```
 
 - **deleteall**  
   Löscht alle Aufgaben.
 
   ```bash
-  python task_manager.py deleteall
+  python tasks.py deleteall
   ```
 
 - **list**  
   Listet alle Aufgaben auf.
 
   ```bash
-  python task_manager.py list
+  python tasks.py list
   ```
 
 - **show**  
   Zeigt Details zu einer bestimmten Aufgabe an, basierend auf der ID.
 
   ```bash
-  python task_manager.py show
+  python tasks.py show
   ```
 
 - **filter**  
   Filtert Aufgaben nach Status. Der Benutzer wird aufgefordert, den gewünschten Status (z. B. `open`, `in-progress`, `done`) einzugeben.
 
   ```bash
-  python task_manager.py filter
+  python tasks.py filter
   ```
 
 ## Datenstruktur
@@ -133,7 +133,7 @@ Ein Beispielablauf für das Hinzufügen, Aktualisieren und Löschen einer Aufgab
 1. **Eine Aufgabe hinzufügen**:
 
    ```bash
-   python task_manager.py add
+   pythons.py add
    ```
 
    Eingabeaufforderung: `What task would you like to add?`
@@ -141,7 +141,7 @@ Ein Beispielablauf für das Hinzufügen, Aktualisieren und Löschen einer Aufgab
 2. **Die Aufgabe aktualisieren**:
 
    ```bash
-   python task_manager.py update
+   python tasks.py update
    ```
 
    Eingabeaufforderungen:
@@ -153,12 +153,12 @@ Ein Beispielablauf für das Hinzufügen, Aktualisieren und Löschen einer Aufgab
 3. **Die Aufgabe anzeigen**:
 
    ```bash
-   python task_manager.py show
+   python tasks.py show
    ```
 
 4. **Die Aufgabe löschen**:
    ```bash
-   python task_manager.py delete
+   python tasks.py delete
    ```
 
 ## Lizenz
