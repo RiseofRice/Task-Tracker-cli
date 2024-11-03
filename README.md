@@ -133,7 +133,7 @@ Ein Beispielablauf für das Hinzufügen, Aktualisieren und Löschen einer Aufgab
 1. **Eine Aufgabe hinzufügen**:
 
    ```bash
-   pythons.py add
+   python tasks.py add
    ```
 
    Eingabeaufforderung: `What task would you like to add?`
