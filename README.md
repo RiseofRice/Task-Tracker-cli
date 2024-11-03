@@ -20,8 +20,8 @@ Ein einfaches Python-Programm zur Verwaltung von Aufgaben, das Aufgaben hinzufü
 1. **Klonen oder Herunterladen des Projekts:**
 
    ```bash
-   git clone https://github.com/username/task-manager.git
-   cd task-manager
+   git clone https://github.com/RiseofRice/Task-Tracker-cli.git
+   cd Task-Tracker-cli
    ```
 
 2. **Python-Umgebung vorbereiten:**
